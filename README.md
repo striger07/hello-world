@@ -1,3 +1,20 @@
-# hello-world
-"This repository is for practicing the GitHub Flow."
-'hello my name is lakshay sharma'
+
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+int arr[n];
+for(int i=0;i<n;i++){
+    cin>>arr[i];
+}
+int sum=0;
+for(int i=0;i<n;i++){
+    sum=sum+arr[i];
+}
+sum=sum/n;
+cout<<sum<<endl;
+
+
+}
+
